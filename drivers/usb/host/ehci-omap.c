@@ -1250,7 +1250,7 @@ static struct hc_driver ehci_omap_hc_driver = {
 	.update_device_disconnect = omap4_ehci_update_device_disconnect,
 };
 
-MODULE_ALIAS("platform:omap-ehci");
+MODULE_ALIAS("platform:ehci-omap");
 MODULE_AUTHOR("Texas Instruments, Inc.");
 MODULE_AUTHOR("Felipe Balbi <felipe.balbi@nokia.com>");
 
